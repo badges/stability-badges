@@ -1,0 +1,25 @@
+{
+  "name": "stability-badges",
+  "version": "0.0.0",
+  "description": "A set of SVG badges to mark your modules with the Node stability index",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "prepublish": "node generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/stability-badges.git"
+  },
+  "keywords": [
+    "stability",
+    "badges",
+    "readme",
+    "image",
+    "svg",
+    "content"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
