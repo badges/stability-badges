@@ -9,12 +9,16 @@ function badge(label, category, options) {
   options.labelWidth = options.labelWidth || 35
 
   var svg = ''
+  var height = 19
+  var shadow = 2
+  var body = height - shadow
 
+  // shadow
   svg += el('rect', {
       x: 0
-    , y: 2
+    , y: 0
     , width: options.width
-    , height: 20
+    , height: height
     , style: {
         fill: options.labelColor
       , opacity: 0.3
@@ -25,7 +29,7 @@ function badge(label, category, options) {
       x: 0
     , y: 0
     , width: options.width
-    , height: 20
+    , height: body
     , style: {
       fill: options.labelColor
     }
@@ -35,14 +39,14 @@ function badge(label, category, options) {
       x: options.labelWidth
     , y: 0
     , width: options.width - options.labelWidth
-    , height: 20
+    , height: body
     , style: {
       fill: options.categoryColor
     }
   })
 
-  svg += shadow(5, 10, label)
-  svg += shadow(options.labelWidth + 5, 10, category)
+  svg += dropshadowText(5, body / 2, label)
+  svg += dropshadowText(options.labelWidth + 5, body / 2, category)
 
   return svg
 }
@@ -90,7 +94,7 @@ function el(el) {
   return str
 }
 
-function shadow(x, y, label) {
+function dropshadowText(x, y, label) {
   return el('text', label, {
       x: x
     , y: y + 1
