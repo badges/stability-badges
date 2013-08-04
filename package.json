@@ -1,6 +1,6 @@
 {
   "name": "stability-badges",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A set of SVG badges to mark your modules with the Node stability index",
   "main": "index.js",
   "devDependencies": {},
