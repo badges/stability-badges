@@ -103,7 +103,7 @@ function dropshadowText(x, y, label) {
       , 'font-size': '10px'
       , 'fill': '#000'
       , 'opacity': '0.75'
-      , 'font-family': 'Arial, Helvetica, sans-serif'
+      , 'font-family': 'sans-serif'
     }
   }) + el('text', label, {
       x: x
@@ -112,7 +112,7 @@ function dropshadowText(x, y, label) {
         'alignment-baseline': 'middle'
       , 'font-size': '10px'
       , 'fill': '#fff'
-      , 'font-family': 'Arial, Helvetica, sans-serif'
+      , 'font-family': 'sans-serif'
     }
   })
 }
