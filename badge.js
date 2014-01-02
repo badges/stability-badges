@@ -99,20 +99,14 @@ function dropshadowText(x, y, label) {
       x: x
     , y: y + 1
     , style: {
-        'alignment-baseline': 'middle'
-      , 'font-size': '10px'
-      , 'fill': '#000'
-      , 'opacity': '0.75'
-      , 'font-family': 'sans-serif'
+        'fill': '#000'
+      , 'opacity': 0.75
     }
   }) + el('text', label, {
       x: x
     , y: y
     , style: {
-        'alignment-baseline': 'middle'
-      , 'font-size': '10px'
-      , 'fill': '#fff'
-      , 'font-family': 'sans-serif'
+      'fill': '#fff'
     }
   })
 }
