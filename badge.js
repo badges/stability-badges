@@ -3,8 +3,8 @@ module.exports = badge
 function badge(label, category, options) {
   options = options || {}
 
-  options.labelColor = options.labelColor || '#4B4B4B'
-  options.categoryColor = options.categoryColor || '#74C614'
+  options.labelColor = options.labelColor || '#4b4b4b'
+  options.categoryColor = options.categoryColor || '#74c614'
   options.width = options.width || 100
   options.labelWidth = options.labelWidth || 35
 
