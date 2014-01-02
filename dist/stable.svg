@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="120px"
-height="19px"
-xmlns="http://www.w3.org/2000/svg"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-><rect x="0" y="0" width="85" height="19" style="fill:#4B4B4B;opacity:0.3;"></rect><rect x="0" y="0" width="85" height="17" style="fill:#4B4B4B;"></rect><rect x="45" y="0" width="40" height="17" style="fill:#74C614;"></rect><text x="5" y="9.5" style="alignment-baseline:middle;font-size:10px;fill:#000;opacity:0.75;font-family:Arial, Helvetica, sans-serif;">stability</text><text x="5" y="8.5" style="alignment-baseline:middle;font-size:10px;fill:#fff;font-family:Arial, Helvetica, sans-serif;">stability</text><text x="50" y="9.5" style="alignment-baseline:middle;font-size:10px;fill:#000;opacity:0.75;font-family:Arial, Helvetica, sans-serif;">stable</text><text x="50" y="8.5" style="alignment-baseline:middle;font-size:10px;fill:#fff;font-family:Arial, Helvetica, sans-serif;">stable</text>
-</svg>
+<svg width="120" height="19" xmlns="http://www.w3.org/2000/svg"><style type="text/css">text{alignment-baseline:middle;font-family:sans-serif;font-size:10px}</style><rect x="0" y="0" width="85" height="19" style="fill:#4b4b4b;opacity:0.3;"></rect><rect x="0" y="0" width="85" height="17" style="fill:#4b4b4b;"></rect><rect x="45" y="0" width="40" height="17" style="fill:#74C614;"></rect><text x="5" y="9.5" style="fill:#000;opacity:0.75;">stability</text><text x="5" y="8.5" style="fill:#fff;">stability</text><text x="50" y="9.5" style="fill:#000;opacity:0.75;">stable</text><text x="50" y="8.5" style="fill:#fff;">stable</text></svg>

@@ -3,8 +3,8 @@ module.exports = badge
 function badge(label, category, options) {
   options = options || {}
 
-  options.labelColor = options.labelColor || '#4B4B4B'
-  options.categoryColor = options.categoryColor || '#74C614'
+  options.labelColor = options.labelColor || '#4b4b4b'
+  options.categoryColor = options.categoryColor || '#74c614'
   options.width = options.width || 100
   options.labelWidth = options.labelWidth || 35
 
@@ -99,20 +99,14 @@ function dropshadowText(x, y, label) {
       x: x
     , y: y + 1
     , style: {
-        'alignment-baseline': 'middle'
-      , 'font-size': '10px'
-      , 'fill': '#000'
-      , 'opacity': '0.75'
-      , 'font-family': 'Arial, Helvetica, sans-serif'
+        'fill': '#000'
+      , 'opacity': 0.75
     }
   }) + el('text', label, {
       x: x
     , y: y
     , style: {
-        'alignment-baseline': 'middle'
-      , 'font-size': '10px'
-      , 'fill': '#fff'
-      , 'font-family': 'Arial, Helvetica, sans-serif'
+      'fill': '#fff'
     }
   })
 }
